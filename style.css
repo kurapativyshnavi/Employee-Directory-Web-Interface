@@ -1,0 +1,29 @@
+/* styles.css */
+
+/* Responsive card spacing */
+#employeeList .col {
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Modal width on small screens */
+  @media (max-width: 576px) {
+    .modal-dialog {
+      max-width: 95vw;
+      margin: 1.75rem auto;
+    }
+  }
+  
+  /* Custom card shadow */
+  .card {
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  }
+  
+  /* Footer always at bottom */
+  body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  footer {
+    margin-top: auto;
+  }
